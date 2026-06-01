@@ -101,7 +101,7 @@ describe('getInputs', () => {
     [
       4,
       new Map<string, string>([
-        ['annotations', 'org.opencontainers.image.url=https://example.com/path#readme\n#comment\norg.opencontainers.image.source=https://github.com/docker/metadata-action'],
+        ['annotations', 'org.opencontainers.image.url=https://example.com/path#readme\n#comment\norg.opencontainers.image.source=https://github.com/step-security/metadata-action'],
       ]),
       {
         context: context.ContextSource.workflow,
@@ -112,7 +112,7 @@ describe('getInputs', () => {
         labels: [],
         annotations: [
           'org.opencontainers.image.url=https://example.com/path#readme',
-          'org.opencontainers.image.source=https://github.com/docker/metadata-action'
+          'org.opencontainers.image.source=https://github.com/step-security/metadata-action'
         ],
         sepLabels: '\n',
         sepTags: '\n',

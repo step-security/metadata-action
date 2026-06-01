@@ -12,14 +12,14 @@ const githubPayload = {
   commits: [
     {
       author: {
-        email: 'crazy-max@users.noreply.github.com',
+        email: 'step-security@users.noreply.github.com',
         name: 'CrazyMax',
-        username: 'crazy-max'
+        username: 'step-security'
       },
       committer: {
-        email: 'crazy-max@users.noreply.github.com',
+        email: 'step-security@users.noreply.github.com',
         name: 'CrazyMax',
-        username: 'crazy-max'
+        username: 'step-security'
       },
       distinct: true,
       id: '5f3331d7f7044c18ca9f12c77d961c4d7cf3276a',
@@ -35,14 +35,14 @@ const githubPayload = {
   forced: false,
   head_commit: {
     author: {
-      email: 'crazy-max@users.noreply.github.com',
+      email: 'step-security@users.noreply.github.com',
       name: 'CrazyMax',
-      username: 'crazy-max'
+      username: 'step-security'
     },
     committer: {
-      email: 'crazy-max@users.noreply.github.com',
+      email: 'step-security@users.noreply.github.com',
       name: 'CrazyMax',
-      username: 'crazy-max'
+      username: 'step-security'
     },
     distinct: true,
     id: '5f3331d7f7044c18ca9f12c77d961c4d7cf3276a',
@@ -67,7 +67,7 @@ const githubPayload = {
   },
   pusher: {
     email: 'github@crazymax.dev',
-    name: 'crazy-max'
+    name: 'step-security'
   },
   ref: 'refs/heads/dev',
   repository: {
@@ -181,23 +181,23 @@ const githubPayload = {
   },
   sender: {
     avatar_url: 'https://avatars.githubusercontent.com/u/1951866?v=4',
-    events_url: 'https://api.github.com/users/crazy-max/events{/privacy}',
-    followers_url: 'https://api.github.com/users/crazy-max/followers',
-    following_url: 'https://api.github.com/users/crazy-max/following{/other_user}',
-    gists_url: 'https://api.github.com/users/crazy-max/gists{/gist_id}',
+    events_url: 'https://api.github.com/users/step-security/events{/privacy}',
+    followers_url: 'https://api.github.com/users/step-security/followers',
+    following_url: 'https://api.github.com/users/step-security/following{/other_user}',
+    gists_url: 'https://api.github.com/users/step-security/gists{/gist_id}',
     gravatar_id: '',
-    html_url: 'https://github.com/crazy-max',
+    html_url: 'https://github.com/step-security',
     id: 1951866,
-    login: 'crazy-max',
+    login: 'step-security',
     node_id: 'MDQ6VXNlcjE5NTE4NjY=',
-    organizations_url: 'https://api.github.com/users/crazy-max/orgs',
-    received_events_url: 'https://api.github.com/users/crazy-max/received_events',
-    repos_url: 'https://api.github.com/users/crazy-max/repos',
+    organizations_url: 'https://api.github.com/users/step-security/orgs',
+    received_events_url: 'https://api.github.com/users/step-security/received_events',
+    repos_url: 'https://api.github.com/users/step-security/repos',
     site_admin: false,
-    starred_url: 'https://api.github.com/users/crazy-max/starred{/owner}{/repo}',
-    subscriptions_url: 'https://api.github.com/users/crazy-max/subscriptions',
+    starred_url: 'https://api.github.com/users/step-security/starred{/owner}{/repo}',
+    subscriptions_url: 'https://api.github.com/users/step-security/subscriptions',
     type: 'User',
-    url: 'https://api.github.com/users/crazy-max'
+    url: 'https://api.github.com/users/step-security'
   }
 };
 
@@ -206,7 +206,7 @@ fs.writeFileSync(githubEventPath, JSON.stringify(githubPayload));
 
 process.env = Object.assign({}, process.env, {
   TEMP: tmpDir,
-  GITHUB_REPOSITORY: 'docker/metadata-action',
+  GITHUB_REPOSITORY: 'step-security/metadata-action',
   GITHUB_REF: 'refs/heads/dev',
   GITHUB_RUN_ID: '2188748038',
   GITHUB_RUN_ATTEMPT: '1',

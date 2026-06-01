@@ -446,7 +446,6 @@ export class Meta {
         // TODO: "base_ref" is available in the push payload but doesn't always seem to
         //  return the expected branch when the push tag event occurs. It's also not
         //  documented in GitHub docs: https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#push
-        //  more context: https://github.com/docker/metadata-action/pull/192#discussion_r854673012
         // if (/^refs\/tags\//.test(context.ref) && context.payload?.base_ref != undefined) {
         //   branch = context.payload.base_ref.replace(/^refs\/heads\//g, '');
         // }
