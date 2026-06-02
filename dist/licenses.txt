@@ -1760,12 +1760,11 @@ SOFTWARE.
 
 -----------
 
-The following npm packages may be included in this product:
+The following npm package may be included in this product:
 
- - @isaacs/balanced-match@4.0.1
  - balanced-match@4.0.4
 
-These packages each contain the following license:
+This package contains the following license:
 
 (MIT)
 
@@ -2194,8 +2193,7 @@ The following npm packages may be included in this product:
 
  - jackspeak@3.4.3
  - jackspeak@4.1.1
- - minimatch@10.1.1
- - minimatch@10.2.4
+ - minimatch@10.2.5
 
 These packages each contain the following license:
 
@@ -3361,38 +3359,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 The following npm package may be included in this product:
 
- - @renovate/pep440@1.0.0
-
-This package contains the following license:
-
-Copyright (c) Donald Stufft and individual contributors.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-    1. Redistributions of source code must retain the above copyright notice,
-       this list of conditions and the following disclaimer.
-
-    2. Redistributions in binary form must reproduce the above copyright
-       notice, this list of conditions and the following disclaimer in the
-       documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
------------
-
-The following npm package may be included in this product:
-
  - @octokit/openapi-types@27.0.0
 
 This package contains the following license:
@@ -3981,8 +3947,8 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 The following npm packages may be included in this product:
 
- - brace-expansion@1.1.14
- - brace-expansion@2.0.2
+ - brace-expansion@1.1.15
+ - brace-expansion@2.1.1
 
 These packages each contain the following license:
 
@@ -4840,12 +4806,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 -----------
 
-The following npm packages may be included in this product:
+The following npm package may be included in this product:
 
- - @isaacs/brace-expansion@5.0.1
  - brace-expansion@5.0.6
 
-These packages each contain the following license:
+This package contains the following license:
 
 MIT License
 
@@ -5107,7 +5072,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 The following npm packages may be included in this product:
 
- - minimatch@5.1.6
+ - minimatch@5.1.9
  - minimatch@9.0.9
 
 These packages each contain the following license:
@@ -5306,7 +5271,7 @@ The following npm packages may be included in this product:
  - fs-minipass@3.0.3
  - isexe@2.0.0
  - lru-cache@6.0.0
- - minimatch@3.1.2
+ - minimatch@3.1.5
  - minipass-flush@1.0.5
  - minipass-pipeline@1.2.4
  - minipass-sized@2.0.0
@@ -6412,6 +6377,18 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----------
+
+The following npm package may be included in this product:
+
+ - @renovate/pep440@1.0.0
+
+This package contains the following license:
+
+This software is made available under the terms of *either* of the licenses
+found in LICENSE.APACHE or LICENSE.BSD. Contributions to this software is made
+under the terms of *both* these licenses.
 
 -----------
 

@@ -1,0 +1,31 @@
+[[IgnoredVulns]]
+id = "GHSA-5j98-mcp5-4vw2"
+reason = "glob@11.0.3 is used by cacache for internal cache key management via make-fetch-happen. No user-controlled glob patterns are passed from action inputs; ReDoS is not reachable."
+
+[[IgnoredVulns]]
+id = "GHSA-v2v4-37r5-5v8g"
+reason = "ip-address@9.0.5 is used by socks/socks-proxy-agent for SOCKS proxy support. IP address parsing only occurs when a SOCKS proxy is configured via environment variables, not via action inputs; ReDoS is not reachable."
+
+[[IgnoredVulns]]
+id = "GHSA-34x7-hfp2-rc4v"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
+
+[[IgnoredVulns]]
+id = "GHSA-83g3-92jg-28cx"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
+
+[[IgnoredVulns]]
+id = "GHSA-8qq5-rm4j-mr97"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
+
+[[IgnoredVulns]]
+id = "GHSA-9ppj-qmqm-q256"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
+
+[[IgnoredVulns]]
+id = "GHSA-qffp-2rhf-9h96"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
+
+[[IgnoredVulns]]
+id = "GHSA-r6q2-hw4h-h46w"
+reason = "tar@6.2.1 is only used by cacache@18.0.3 -> make-fetch-happen@13.0.1 -> node-gyp@10.1.0, which is a build-time tool for compiling native addons. It is not bundled into dist/index.cjs and is not part of the action runtime."
