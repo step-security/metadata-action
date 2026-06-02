@@ -750,10 +750,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.39.3, @eslint/js@npm:^9.39.3":
+"@eslint/js@npm:9.39.3":
   version: 9.39.3
   resolution: "@eslint/js@npm:9.39.3"
   checksum: 10/91a1a1822cfeb2eb8a89aae86be5dfabad0b66b0915946516690a8485ddd80b91f43eee346789313fea1acbb7390a4958119ca7dc9a684a5c4014f12fcb3aaf3
+  languageName: node
+  linkType: hard
+
+"@eslint/js@npm:^10.0.1":
+  version: 10.0.1
+  resolution: "@eslint/js@npm:10.0.1"
+  peerDependencies:
+    eslint: ^10.0.0
+  peerDependenciesMeta:
+    eslint:
+      optional: true
+  checksum: 10/27ff77b8f0aab350b2f7a69d974eabb816bb9f4cab986b1538782269d6bfdc29e351803fa7a62c22c0b786341324f1a28b86bc83956ddfa189aa6bead1a87758
   languageName: node
   linkType: hard
 
@@ -2787,7 +2799,7 @@ __metadata:
     "@actions/core": "npm:^3.0.1"
     "@actions/github": "npm:^9.1.1"
     "@docker/actions-toolkit": "npm:^0.91.0"
-    "@eslint/js": "npm:^9.39.3"
+    "@eslint/js": "npm:^10.0.1"
     "@renovate/pep440": "npm:^1.0.0"
     "@types/node": "npm:^24.11.0"
     "@types/semver": "npm:^7.7.1"
