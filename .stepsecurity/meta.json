@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/metadata-action",
+   "upstream_full_repo_name": "docker/metadata-action",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v6.1.0",
+     "created_at": "2026-06-02T03:50:33Z",
+     "published_at": "2026-06-03T02:55:14Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
