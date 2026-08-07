@@ -2218,7 +2218,7 @@ software or this license, under any kind of legal claim._**
 
 The following npm package may be included in this product:
 
- - axios@1.16.1
+ - axios@1.18.0
 
 This package contains the following license:
 
@@ -2894,7 +2894,7 @@ Felix Geisendörfer (felix@debuggable.com)
 
 The following npm package may be included in this product:
 
- - form-data@4.0.5
+ - form-data@4.0.6
 
 This package contains the following license:
 
@@ -3589,8 +3589,8 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 The following npm packages may be included in this product:
 
- - brace-expansion@1.1.15
- - brace-expansion@2.1.1
+ - brace-expansion@1.1.18
+ - brace-expansion@2.1.4
 
 These packages each contain the following license:
 
@@ -4310,7 +4310,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The following npm package may be included in this product:
 
- - undici@6.25.0
+ - undici@6.28.0
 
 This package contains the following license:
 
